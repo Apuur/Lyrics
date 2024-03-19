@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: url('../assets/bg.png') center center;
+    text-align: center;
+}
+
+.container {
+    height: 600px;
+    overflow: hidden;
+}
+
+.container ul {
+    transition: 1s ease-in;
+}
+
+.container ul li {
+    list-style: none;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    transition: 1s;
+}
+
+.container ul li.active {
+    transform: scale(1.2);
+    color: #f15252;
+
+}
